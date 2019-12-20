@@ -15,12 +15,9 @@ p ftoc(68)
 #     it "converts boiling temperature" expect(ctof(100)).to eq(212)
 #     it "converts arbitrary temperature" do expect(ctof(20)).to eq(68)
 #     it "converts body temperature" do expect(ctof(37)).to be_within(0.1).of(98.6)
-#try "puts 0.5 - 0.4 - 0.1" -- pretty crazy, right?
-
 def ctof(num)
-    num * 9.0 / 5.0 + 32.0
+  num * 9.0 / 5.0 + 32.0
 end
-
 p ctof(0)
 p ctof(100)
 p ctof(20)

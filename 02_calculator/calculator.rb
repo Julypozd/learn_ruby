@@ -28,8 +28,8 @@ def factorial(num)
     end
     result = 1
     while num > 0
-    result = result * n
-    num -= 1
+        result = result * n
+        num -= 1
     end
 return result
 end

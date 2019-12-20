@@ -7,6 +7,7 @@ def shout(word)
     word.upcase
 end
 puts echo("hello")
+
 def repeat(word, times=nil)
     if times == nil
         ((word +" ") * 2).delete_suffix(" ")
@@ -16,11 +17,13 @@ def repeat(word, times=nil)
 end
 puts repeat("hello")
 puts repeat("hello", 3)
+
 def start_of_word(word, num)
     return word[0, num]
 end 
 puts start_of_word("hello", 1)
 puts start_of_word("Bob", 2)
+
 def first_word(sen)
     sen.split.first
 end
